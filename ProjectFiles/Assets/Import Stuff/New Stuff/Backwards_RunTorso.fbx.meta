@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: a5dd827f4311c404e8ab2b86cbc91288
+timeCreated: 1506882249
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_left
+    100002: arm_right1
+    100004: AXE
+    100006: AXE 1
+    100008: //RootNode
+    100010: BASE
+    100012: CHEST
+    100014: CHEST 1
+    100016: ELBOW_LEFT
+    100018: ELBOW_RIGHT
+    100020: END
+    100022: END 1
+    100024: FOOT_LEFT
+    100026: FOOT_RIGHT
+    100028: HAND_LEFT
+    100030: HAND_LEFT 1
+    100032: HAND_LEFT 2
+    100034: HEAD
+    100036: HIPS
+    100038: imagePlane1
+    100040: KNEE_LEFT
+    100042: KNEE_RIGHT
+    100044: left1
+    100046: LEG_LEFT
+    100048: LEG_RIGHT
+    100050: LOWER_HALF
+    100052: MAIN
+    100054: MID
+    100056: nina
+    100058: SHOULDER_LEFT
+    100060: SHOULDER_RIGHT
+    100062: TOP
+    100064: TORSO
+    100066: TORSO 1
+    400000: arm_left
+    400002: arm_right1
+    400004: AXE
+    400006: AXE 1
+    400008: //RootNode
+    400010: BASE
+    400012: CHEST
+    400014: CHEST 1
+    400016: ELBOW_LEFT
+    400018: ELBOW_RIGHT
+    400020: END
+    400022: END 1
+    400024: FOOT_LEFT
+    400026: FOOT_RIGHT
+    400028: HAND_LEFT
+    400030: HAND_LEFT 1
+    400032: HAND_LEFT 2
+    400034: HEAD
+    400036: HIPS
+    400038: imagePlane1
+    400040: KNEE_LEFT
+    400042: KNEE_RIGHT
+    400044: left1
+    400046: LEG_LEFT
+    400048: LEG_RIGHT
+    400050: LOWER_HALF
+    400052: MAIN
+    400054: MID
+    400056: nina
+    400058: SHOULDER_LEFT
+    400060: SHOULDER_RIGHT
+    400062: TOP
+    400064: TORSO
+    400066: TORSO 1
+    4300000: LOWER_HALF
+    4300002: arm_right1
+    4300004: arm_left
+    4300006: HAND_LEFT
+    4300008: AXE
+    4300010: CHEST
+    7400000: Backwards_RunTorso
+    9500000: //RootNode
+    13700000: arm_left
+    13700002: arm_right1
+    13700004: AXE
+    13700006: CHEST
+    13700008: HAND_LEFT
+    13700010: LOWER_HALF
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Backwards_RunTorso
+      takeName: Backwards_RunTorso
+      firstFrame: 21
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: imagePlane1
+        weight: 1
+      - path: left1
+        weight: 1
+      - path: nina
+        weight: 1
+      - path: nina/arm_left
+        weight: 1
+      - path: nina/arm_left/HAND_LEFT
+        weight: 1
+      - path: nina/arm_left/HAND_LEFT/AXE
+        weight: 1
+      - path: nina/arm_right1
+        weight: 1
+      - path: nina/CHEST
+        weight: 1
+      - path: nina/LOWER_HALF
+        weight: 1
+      - path: nina/MAIN
+        weight: 1
+      - path: nina/MAIN/BASE
+        weight: 1
+      - path: nina/MAIN/BASE/HIPS
+        weight: 1
+      - path: nina/MAIN/BASE/HIPS/LEG_LEFT
+        weight: 1
+      - path: nina/MAIN/BASE/HIPS/LEG_LEFT/KNEE_LEFT
+        weight: 1
+      - path: nina/MAIN/BASE/HIPS/LEG_LEFT/KNEE_LEFT/FOOT_LEFT
+        weight: 1
+      - path: nina/MAIN/BASE/HIPS/LEG_LEFT/KNEE_LEFT/FOOT_LEFT/END
+        weight: 1
+      - path: nina/MAIN/BASE/HIPS/LEG_RIGHT
+        weight: 1
+      - path: nina/MAIN/BASE/HIPS/LEG_RIGHT/KNEE_RIGHT
+        weight: 1
+      - path: nina/MAIN/BASE/HIPS/LEG_RIGHT/KNEE_RIGHT/FOOT_RIGHT
+        weight: 1
+      - path: nina/MAIN/BASE/HIPS/LEG_RIGHT/KNEE_RIGHT/FOOT_RIGHT/END 1
+        weight: 1
+      - path: nina/MAIN/TORSO
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID/CHEST 1
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID/CHEST 1/HEAD
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID/CHEST 1/HEAD/TOP
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID/CHEST 1/SHOULDER_LEFT
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID/CHEST 1/SHOULDER_LEFT/ELBOW_LEFT
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID/CHEST 1/SHOULDER_LEFT/ELBOW_LEFT/HAND_LEFT
+          1
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID/CHEST 1/SHOULDER_RIGHT
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID/CHEST 1/SHOULDER_RIGHT/ELBOW_RIGHT
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID/CHEST 1/SHOULDER_RIGHT/ELBOW_RIGHT/HAND_LEFT
+          2
+        weight: 1
+      - path: nina/MAIN/TORSO/TORSO 1/MID/CHEST 1/SHOULDER_RIGHT/ELBOW_RIGHT/HAND_LEFT
+          2/AXE 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
